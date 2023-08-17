@@ -73,3 +73,16 @@ Writers: Read Update Create
 Admin: Read Update Create and Delete
 
 URL: The Uniform Resource Locator. specifies the location of data.
+
+
+
+## Commands to initialize git repository
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin "your own remote origin link from github"
+git push -u origin main
+
+--------------------------------
