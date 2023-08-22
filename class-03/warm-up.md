@@ -24,6 +24,11 @@ def get_names():
         print(doc['actor'])
 
 get_names()
+```
+
+outputs the names of the doctors.
+
+```python
 
 
 def get_number(doctors):
@@ -31,3 +36,5 @@ def get_number(doctors):
 
 get_number(DOCTORS)
 ```
+
+returns the length of the doctor array.
